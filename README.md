@@ -91,3 +91,9 @@ $ gpg --keyserver hkp://keys.gnupg.net --recv-keys <fingerprint without spaces h
 # e.g.
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 2F8B75551BAF4A693C1A7F9A8C7B8F00E43F742E
 ```
+
+# DECRYPTING
+
+```bash
+$ gpg --output doc --decrypt doc.gpg
+```
